@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgb(5, 99, 94);
+  border-bottom: 1px solid black;
+}
+
+.header-title {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.board-container {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 50px;
+}
+
+.board {
+  width: 300px;
+  min-width: 300px;
+  max-width: 400px;
+  height: calc(100% - 50px);
+  margin: 10px;
+  overflow-y: auto;
+}
+
+.board-header {
+  height: 50px;
+  background-color: rgb(6, 196, 180);
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.board-content {
+  max-height: calc(100vh - 100px);
+  background-color: rgb(236, 224, 224);
+  overflow-y: auto;
+}
+
+.task {
+  margin: 10px;
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+
+

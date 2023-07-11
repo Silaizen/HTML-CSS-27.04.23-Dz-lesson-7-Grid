@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #add8e5;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.news {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+}
+
+.news-title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.news-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
